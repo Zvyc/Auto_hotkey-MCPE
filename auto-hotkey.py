@@ -26,10 +26,10 @@ hotbarToPos = { "1": 745,
                 "3": 850,
                 "4": 900,
                 "5": 960,
-                "v": 1015,
-                "c": 1070,
-                "r": 1120,
-                "f": 1175 }
+                "6": 1015,
+                "7": 1070,
+                "8": 1120,
+                "9": 1175 }
 
 def center_mouse(delay):
     time.sleep(delay) # Pause a bit so the mouse move registers
@@ -50,10 +50,10 @@ def on_press(key):
         elif pressed_key == "3": hotkey("3")
         elif pressed_key == "4": hotkey("4")
         elif pressed_key == "5": hotkey("5")
-        elif pressed_key == "v": hotkey("v")
-        elif pressed_key == "c": hotkey("c")
-        elif pressed_key == "r": hotkey("r")
-        elif pressed_key == "f": hotkey("f")
+        elif pressed_key == "6": hotkey("v")
+        elif pressed_key == "7": hotkey("c")
+        elif pressed_key == "8": hotkey("r")
+        elif pressed_key == "9": hotkey("f")
         print('{0} pressed (Inside inventory/chest)'.format(key))
     else:
         if (center_mouse_when_inv_opens.lower() == 'true') and (pressed_key == "e"): center_mouse(0.06)
