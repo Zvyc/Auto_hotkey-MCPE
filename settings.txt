@@ -1,0 +1,7 @@
+center_mouse_when_inv_opens = False
+selected_pixel_position_x = 1065
+selected_pixel_position_y = 315
+center_mouse_position_x = 960
+center_mouse_position_y = 640
+exit_script_key = -
+restart_script_key = z
